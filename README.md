@@ -1,21 +1,31 @@
 # Probabilidade e Estatística
 
-Repositório de projetos da disciplina **Probabilidade e Estatística** (6º período) — PUC Goiás.
+| | |
+|---|---|
+| **Período** | 6º |
+| **Stack** | Python |
 
-## Projetos
+## Projeto
 
-| Pasta / arquivo | Descrição |
-|-----------------|-----------|
-| `trabalho-probabilidade` | Projeto ou atividade da disciplina |
+**`trabalho-probabilidade/`**
 
-## Tecnologias
+| Arquivo | Função |
+|---------|--------|
+| `main.py` | Orquestra simulação e gráficos |
+| `Graphics.py` | Visualização dos dados |
+| `Layout.py` | Layout da interface gráfica |
 
-- Python
+## Execução
 
-## Como executar
-
-- **Python:** Criar venv, `pip install -r requirements.txt` (se existir), executar `.py` ou Jupyter.
-
+```bash
+cd trabalho-probabilidade
+pip install matplotlib  # se necessário
+python main.py
+```
 ---
 
-*Origem: Google Drive → staging PUC. Repositório `puc-probabilidade-estatistica` na org `puc-estudos`.*
+## Autor
+
+**Rodrigo Viana Quirino** — Ciência da Computação, PUC Goiás.
+
+Repositório privado na conta [rodviana](https://github.com/rodviana).
